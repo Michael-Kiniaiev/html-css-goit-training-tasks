@@ -1,131 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My resume</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
-<body>
-    <!-- Wrapper -->
-    <div class="wrapper">
-        <!-- Main content -->
-        <div class="main-content">
-            
-            <!-- My info -->
-            <div>
-                <h2>Front-End Developer</h2>
-                <h1>Taras Goitinskiy</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Quis ipsum suspendisse ultrices gravida. 
-                    Risus commodo viverra maecenas accumsan lacus vel facilisis. 
-                </p>
-            </div>
-            
-            <!-- My projects -->
-            <div>
-                <h3>Projects</h3>
-                <ol>
-                    <li class="project-item"><a href="https://hellen.p.goit.global/" target="_blank">https://hellen.p.goit.global/</a>
-                        .......................[ HTML5, CSS3 ]</li>
-                    <li class="project-item"><a href="https://cryptohub.p.goit.global/" target="_blank">https://cryptohub.p.goit.global/</a>
-                        .................[ JavaScript ]</li>
-                    <li class="project-item"><a href="https://kidslike.p.goit.global/" target="_blank">https://kidslike.p.goit.global/</a>
-                        ....................[ React.js, Node.js ]</li>
-                </ol>
-            </div>
-            
-            <!-- Work experience -->
-            <div>
-                <h3>Work Experience</h3>
-                <!-- Company 1 -->
-                <div>
-                    <h4>Front-End Developer Freelance </h4>
-                    <p>September 2019 - up to now   |   Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
-                    </ul>
+    <body>
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Main content -->
+            <div class="main-content">
+                
+                <!-- My info -->
+                <div class="my-info">
+                    <h2 class="my-profession">Front-End Developer, Python Developer, Glider & Paraglider pilot, Agricultural hexacopter pilot, Ingeneer</h2>
+                    <h1 class="my-name">Michael Kiniaiev</h1>
+                    <p class="my-description">I'm learning to code, I know the front-end, a little bit of the back-end, 
+                        I like games and learning to code python games. I study neural networks and AI. I like to fly on airplanes and gliders, paragliders. 
+                    </p>
                 </div>
+                
+                <!-- My projects -->
+                <div class="my-projects-container">
+                    <h3 class="my-projects-title">Projects</h3>
+                    <ol class="my-projects-list">
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://www.gostork.com/" target="_blank">https://www.gostork.com/</a>
+                            <span class="my-projects-item-text">
+                                ..............................................................................................[ HTML5, CSS3 ]
+                            </span>
+                        </li>
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://github.com/Michael-Kiniaiev/html-css-goit-training-tasks" target="_blank">https://github.com/Michael-Kiniaiev/html-css-goit-training-tasks</a>
+                            <span class="my-projects-item-text">
+                                ....[ HTML5, CSS3 ]
+                            </span>
+                        </li>
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://github.com/Michael-Kiniaiev/js-learning" target="_blank">https://github.com/Michael-Kiniaiev/js-learning</a>
+                            <span class="my-projects-item-text">
+                                ..............................................[ JavaScript ]
+                            </span>
+                        </li>
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://github.com/Michael-Kiniaiev/py-learning" target="_blank">https://github.com/Michael-Kiniaiev/py-learning</a>
+                            <span class="my-projects-item-text">
+                                .............................................[ Python ]
+                            </span>
+                        </li>
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://github.com/Michael-Kiniaiev/py-game" target="_blank">https://github.com/Michael-Kiniaiev/py-game</a>
+                            <span class="my-projects-item-text">
+                                ...................................................[ Python-game ]
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+                
+                <!-- Work experience -->
+                <div class="work-experience-container">
+                    <h3 class="work-experience-title">Work Experience</h3>
+                    <!-- Company 1 -->
+                    <div class="work-experience-company-container">
+                        <h4 class="work-experience-company-title">Front-End Developer 
+                            <span class="work-experience-position">
+                                Freelance
+                            </span>
+                        </h4>
+                        <p class="work-experience-period">June 2022 - August 2022   <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">HTML/CSS layout according to tasks.</li>
+                            <li class="work-experience-duties-item">Work at Figma, Inkscape, FreeCAD.</li>
+                        </ul>
+                    </div>
 
-                <!-- Company 2 -->
-                <div>
-                    <h4>Manager Banderogusak & Co. </h4>
-                    <p>March 2015 - October 2018   |   Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                    </ul>
-                </div>
+                    <!-- Company 2 -->
+                    <div class="work-experience-company-container">
+                        <h4 class="work-experience-company-title">Radio technician + Agricultural hexacopter pilot 
+                            <span class="work-experience-position">
+                                Lux-Link
+                            </span>
+                        </h4>
+                        <p class="work-experience-period">November 2021 - April 2022   <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">Laying and welding of optical and television lines and networks. (FTTH, FTTB, FTTX) </li>
+                            <li class="work-experience-duties-item">Participation in the design of optical networks.</li>
+                            <li class="work-experience-duties-item">Piloting an agricultural hexacopter. Performance of air chemical works in field conditions.</li>
+                            <li class="work-experience-duties-item">Creation of field maps.</li>
+                            <li class="work-experience-duties-item">Repair, maintenance, and modernization of the agricultural hexacopter.</li>
+                        </ul>
+                    </div>
 
-                <!-- Company 3 -->
-                <div>
-                    <h4>Manager BestUA Corp.</h4>
-                    <p>June 2014 - February 2015   |   Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                    </ul>
+                    <!-- Company 3 -->
+                    <div class="work-experience-company-container">
+                        <h4 class="work-experience-company-title">Engineer for adjustment of control measuring devices and special tools <br>
+                            <span class="work-experience-position">
+                                Kromberg & Schubert Ukraine
+                            </span> 
+                        </h4>
+                        <p class="work-experience-period">Marth 2014 - June 2014   <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">Engineer of the technical department. </li>
+                        </ul>
+                    </div>
+
+                    <!-- Company 4 -->
+                    <div class="work-experience-company-container">
+                        <h4 class="work-experience-company-title">Debugger of control and measuring devices and automation 
+                            <span class="work-experience-position">
+                                Stellar MV
+                            </span>
+                        </h4>
+                        <p class="work-experience-period">November 2013 - Marth 2014   <span class="work-experience-period-separator">|</span>   Ukraine</p>
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">Mechanic of the technical automobile department. </li>
+                            <li class="work-experience-duties-item">Restoration and adjustment of pneumatic systems of DAF, MAN, RENAULT, VOLVO trucks.</li>
+                            <li class="work-experience-duties-item">Computer diagnostics of electrical and pneumatic systems of DAF, MAN, RENAULT, VOLVO trucks.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div class="education-container">
+                    <h3 class="education-title">Education</h3>
+                    <p class="education-place">FTO VINNYTSA SPORT AVIATION CLUB OF SOCIETY OF ENCOURAGEMENT TO DEFENSE OF UKRAINE</p>
+                    <p class="education-direction">Glider pilot</p>
+                    <p class="work-experience-period">June 2021 - October 2021   <span class="work-experience-period-separator">|</span>   Ukraine</p>
                 </div>
             </div>
-            <!-- Education -->
-            <div>
-                <h3>Education</h3>
-                <p>National University of Management</p>
-                <p>Management</p>
-                <p>September 2009 - June 2014   |   Country</p>
-            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <img src="img/my-photo.jpg" alt="My photo" width="370px" height="390px">
+
+                <div class="sidebar-content">
+                    <!-- Contacts -->
+                    <div class="contacts-container">
+                        <h3 class="contacts-title">Contacts</h3>
+                        <p class="contacts-item">
+                            <span class="contacts-type">C:</span> 
+                            <a class="contacts-link" href="tel:+380957651458">+38 095 765 14 58</a>
+                        </p>
+                        <p class="contacts-item">
+                            <span class="contacts-type">E:</span> 
+                            <a class="contacts-link" href="mailto:michael1992avia@gmail.com">michael1992avia@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <!-- Tech skills -->
+                    <div class="skills-container">
+                        <h3 class="skills-title">Tech Skills</h3>
+                        <ul class="skills-list">
+                            <li class="skills-list-item">HTML5</li>
+                            <li class="skills-list-item">CSS3</li>
+                            <li class="skills-list-item">GIT</li>
+                            <li class="skills-list-item">JavaScript</li>
+                            <li class="skills-list-item">ANGULAR</li>
+                            <li class="skills-list-item">Python</li>
+                            <li class="skills-list-item">Design works (FreeCAD, Inkscape)</li>
+                            <li class="skills-list-item">Piloting of airplanes and gliders</li>
+                            <li class="skills-list-item">Lathe and milling machine</li>
+                            <li class="skills-list-item">Aircraft + car repair technician</li>
+                            <li class="skills-list-item">Electrician</li>
+                            <li class="skills-list-item">Design and assembly of unmanned aerial vehicles (quadrocopters, hexacopters)</li>
+                            <li class="skills-list-item">Piloting of unmanned aerial vehicles (quadrocopters, hexacopters)</li>
+                            <li class="skills-list-item">Glider pilot license</li>
+                            <li class="skills-list-item">Paraglider pilot license</li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft skills -->
+                    <div class="soft-skills-container">
+                        <h3 class="soft-skills-title">Soft Skills</h3>
+                        <ul class="soft-skills-list">
+                            <li class="soft-skills-list-item">Scrum</li>
+                            <li class="soft-skills-list-item"> Agile</li>
+                            <li class="soft-skills-list-item">Patience</li>
+                            <li class="soft-skills-list-item"> Persistence</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
         </div>
-
-        <!-- Sidebar -->
-        <aside>
-            <img src="img/my-photo.png" alt="My photo" width="370px" height="370px">
-
-            <!-- Contacts -->
-            <div>
-                <h3>Contacts</h3>
-                <p>C: <a href="tel:+388888888888">+38 888 888 88 88</a></p>
-                <p>E: <a href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a></p>
-            </div>
-
-            <!-- Tech skills -->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li> CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
-
-            <!-- Soft skills -->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li> Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
-                </ul>
-            </div>
-        </aside>
-    </div>
-</body>
-
+    </body>
 </html>
 
 
